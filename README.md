@@ -61,6 +61,17 @@ update the ip address and change to deply user
 
 ## Finally '''cap production deploy'''
 
+Notes:make sure these GEMs are added
+'''
+gem 'ed25519', '~> 1.2'
+gem 'bcrypt_pbkdf', '~> 1'
+'''
+
+Make sure github has the public key of deploy.
+
+Make sure deploy user has access to /var/www folder
+'''sudo chown deploy:deploy /var/www/'''
+
 
 
 
