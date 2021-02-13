@@ -57,6 +57,8 @@ gem 'capistrano-rbenv'
 ## update '''config/deploy/production.rb'''
 update the ip address and change to deply user
 
+'''server '1.2.3.4', user: fetch(:user), roles: %w{app db web}'''
+
 ## Finally '''cap production deploy'''
 
 
