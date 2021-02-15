@@ -3,7 +3,7 @@
 ruby_version: '2.6.3'
 
 # Your rails app name
-app_name: 'nesha_erp'
+app_name: 'erp_nesha'
 
 deploy_user: 'deploy'
 deploy_user_password: 'correcthorsebatterystapler'
