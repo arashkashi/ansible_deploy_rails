@@ -24,7 +24,7 @@ python -m pip install --user ansible
 ## server-env.yml  remains untouched
 ## Edit vars.yml
 Edit '''ruby_version'''
-Edit '''app_name'''
+Edit '''app_name''' , make sure the name is the same as the github repo name
 Assuming we use SQLite no need to change the rest.
 ## Edit envs.yml
 Edit RAILS_MASTER_KEY from '''app/config/master.key'''
